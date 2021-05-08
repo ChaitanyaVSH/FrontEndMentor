@@ -1,0 +1,81 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap");
+/* Fonts ending */
+
+/* Root styles */
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 15px;
+}
+
+/* Variables */
+:root {
+  --color1: hsl(31, 77%, 52%);
+  --color2: hsl(184, 100%, 22%);
+  --color3: hsl(179, 100%, 13%);
+}
+
+.container {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card {
+  width: 200px;
+  height: 350px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card > h2 {
+  text-transform: uppercase;
+  font-family: Big Shoulders Display;
+  font-weight: 900;
+  font-size: 40px;
+  color: hsl(0, 0%, 95%);
+}
+
+.card > p {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 22px;
+  margin-top: -10px;
+}
+
+#card1 {
+  background: var(--color1);
+}
+
+#card2 {
+  background: var(--color2);
+}
+
+#card3 {
+  background: var(--color3);
+}
+
+.button {
+  display: inline-block;
+  background: hsl(0, 0%, 95%);
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin-top: auto;
+  font-family: Lexend Deca;
+}
+
+/* Media Queries for the mobile devices */
+@media (max-width: 376px) {
+  .container {
+    flex-wrap: wrap;
+  }
+}

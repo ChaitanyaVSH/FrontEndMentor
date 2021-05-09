@@ -25,6 +25,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-top: 200px;
 }
 
 .card {
@@ -97,6 +98,7 @@ body {
 @media (max-width: 376px) {
   .container {
     flex-wrap: wrap;
+    margin-top: 0;
   }
 
   .container > div:first-child {

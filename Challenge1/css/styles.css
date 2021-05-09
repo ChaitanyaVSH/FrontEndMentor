@@ -28,7 +28,8 @@ body {
 }
 
 .card {
-  width: 200px;
+  min-width: 200px;
+  max-width: 200px;
   height: 350px;
   padding: 40px;
   display: flex;
@@ -55,13 +56,32 @@ body {
 #card1 {
   background: var(--color1);
 }
+#card1 > a {
+  color: var(--color1);
+}
 
 #card2 {
   background: var(--color2);
 }
+#card2 > a {
+  color: var(--color2);
+}
 
 #card3 {
   background: var(--color3);
+}
+#card3 > a {
+  color: var(--color3);
+}
+
+.container > div:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+.container > div:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
 }
 
 .button {
@@ -77,5 +97,17 @@ body {
 @media (max-width: 376px) {
   .container {
     flex-wrap: wrap;
+  }
+
+  .container > div:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 0;
+  }
+
+  .container > div:last-child {
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 0;
   }
 }

@@ -113,3 +113,15 @@ body {
     border-top-right-radius: 0;
   }
 }
+
+/* Additional styles */
+.attribution {
+  font-family: Big Shoulders Display;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.attribution > a {
+  color: var(--color1);
+}

@@ -1,0 +1,118 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/* Fonts ending */
+
+/* Variables */
+:root {
+  --primarycolor: hsl(233, 47%, 7%);
+  --secondarycolor: hsl(244, 38%, 16%);
+  --softviolet: hsl(277, 64%, 61%);
+  --textColor1: hsl(0, 0%, 100%);
+  --textColor2: hsla(0, 0%, 100%, 0.75);
+  --textColor3: hsla(0, 0%, 100%, 0.6);
+}
+
+/* Root styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.softViolet {
+  color: var(--softviolet);
+}
+
+/* Standard styles for all challenges */
+.attribution {
+  font-family: Lexend Deca;
+  font-weight: 900;
+  font-size: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.attribution > a {
+  color: var(--softviolet);
+}
+
+body {
+  font-family: Lexend Deca;
+  font-weight: 400;
+  font-size: 15px;
+  background: var(--primarycolor);
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.container > * {
+  border-radius: 5px;
+}
+
+.mainImage {
+  position: relative;
+  background-image: url("../images/image-header-mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.mainImage::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: hsla(277, 64%, 61%, 0.6);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.mainText {
+  background: var(--secondarycolor);
+  color: var(--textColor1);
+  padding: 20px;
+  text-align: center;
+}
+
+.mainText h2 {
+  font-family: Inter;
+}
+
+.mainText p {
+  color: var(--textColor3);
+  line-height: 25px;
+  margin: 20px;
+}
+
+.innerText {
+  display: flex;
+  flex-direction: column;
+}
+
+.stats {
+  margin: 15px auto;
+}
+
+.stats h2 {
+  margin-bottom: 8px;
+  color: var(--textColor1);
+}
+
+.stats span {
+  color: var(--textColor3);
+  text-transform: uppercase;
+}

@@ -30,19 +30,6 @@ img {
   color: var(--softviolet);
 }
 
-/* Standard styles for all challenges */
-.attribution {
-  font-family: Lexend Deca;
-  font-weight: 900;
-  font-size: 20px;
-  margin: 10px;
-  text-align: center;
-}
-
-.attribution > a {
-  color: var(--softviolet);
-}
-
 body {
   font-family: Lexend Deca;
   font-weight: 400;
@@ -89,7 +76,7 @@ body {
   text-align: center;
 }
 
-.mainText h2 {
+.mainText h1 {
   font-family: Inter;
 }
 

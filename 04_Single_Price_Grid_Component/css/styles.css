@@ -39,6 +39,7 @@ body {
   padding: 40px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  width: 650px;
 }
 
 .showcase h2 {
@@ -54,6 +55,7 @@ body {
 
 .showcase p {
   color: var(--grayish-blue);
+  margin-bottom: 8px;
 }
 
 /* Footer styles */

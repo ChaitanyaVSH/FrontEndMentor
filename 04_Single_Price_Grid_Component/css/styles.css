@@ -1,0 +1,54 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+/* CSS reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Root variables */
+:root {
+  --primary-cyan: hsl(179, 62%, 43%);
+  --secondary-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+}
+
+/* Utility styles */
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  border: 1px solid red;
+}
+
+/* Font-Awesome styles */
+
+/* Actual styles */
+
+/* Footer styles */
+footer {
+  background: var(--secondary-yellow);
+  width: 100%;
+  margin-top: auto;
+  padding: 18px;
+  font-size: 20px;
+  font-family: karla;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}

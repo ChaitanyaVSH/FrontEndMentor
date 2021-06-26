@@ -37,9 +37,9 @@ body {
 .showcase {
   background: var(--white);
   padding: 40px;
+  padding-right: 75px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  width: 650px;
 }
 
 .showcase h2 {
@@ -58,9 +58,56 @@ body {
   margin-bottom: 8px;
 }
 
+.bottomShowcase {
+  display: flex;
+}
+
+.bottomShowcase .pricing {
+  background: var(--primary-cyan);
+  color: var(--light-gray);
+  padding: 40px;
+  border-bottom-left-radius: 8px;
+  flex-basis: 50%;
+}
+
+.pricing h3 {
+  margin-bottom: 15px;
+}
+
+.pricing .price {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.price h1 {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.whyUs {
+  background: var(--primary-cyan);
+  color: var(--white);
+  padding: 40px;
+  border-bottom-right-radius: 8px;
+  flex-basis: 50%;
+  opacity: 0.9;
+}
+
+.whyUs h3 {
+  margin-bottom: 15px;
+}
+
+.whyUs ul li {
+  list-style: none;
+  line-height: 1.5;
+  font-size: 15px;
+  opacity: 0.6;
+}
+
 /* Footer styles */
 footer {
-  background: var(--secondary-yellow);
+  background: var(--primary-cyan);
   width: 100%;
   margin-top: auto;
   padding: 18px;
@@ -76,5 +123,5 @@ footer {
 
 .attribution a {
   text-decoration: none;
-  color: hsl(228, 45%, 44%);
+  color: var(--secondary-yellow);
 }

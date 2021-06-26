@@ -31,6 +31,19 @@ body {
   padding: 8px;
 }
 
+.button {
+  background: var(--secondary-yellow);
+  color: var(--white);
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: 700;
+  outline: none;
+}
+
 /* Font-Awesome styles */
 
 /* Actual styles */

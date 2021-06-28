@@ -141,7 +141,6 @@ footer {
 
 @media (max-width: 620px) {
   body {
-    height: auto;
   }
 
   .showcase {

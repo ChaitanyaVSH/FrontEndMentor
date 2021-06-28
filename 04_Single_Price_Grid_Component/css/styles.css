@@ -138,3 +138,32 @@ footer {
   text-decoration: none;
   color: var(--secondary-yellow);
 }
+
+@media (max-width: 620px) {
+  body {
+    height: auto;
+  }
+
+  .showcase {
+    padding: 20px;
+    line-height: 1.5;
+  }
+
+  .bottomShowcase {
+    display: block;
+  }
+
+  .bottomShowcase .pricing {
+    padding: 20px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .whyUs {
+    padding: 20px;
+    border-bottom-right-radius: 0px;
+  }
+
+  footer {
+    display: none;
+  }
+}

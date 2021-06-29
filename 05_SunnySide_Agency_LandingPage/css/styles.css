@@ -20,17 +20,63 @@
   --dark-grayish-blue: hsl(232, 10%, 55%);
   --grayish-blue: hsl(210, 4%, 67%);
   --white: #fff;
+  --black: #000;
 }
 
 /* Utility styles */
+li {
+  list-style: none;
+}
+
 /* FontAwesome styles */
+
 /* Actual styles */
+.showcase {
+  background: url("../images/desktop/image-header.jpg") no-repeat center/cover;
+  height: 100vh;
+  color: var(--white);
+  font-family: "Barlow";
+}
+
+.showcase h1 {
+  text-align: center;
+  font-size: 75px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  font-family: "Fraunces";
+  margin-top: 150px;
+}
+
+.showcase .mainmenu {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.showcase .mainmenu .innerMenu {
+  margin-left: auto;
+  display: flex;
+  gap: 30px;
+}
+
+.innerMenu li {
+  border: 1px dashed white;
+  margin: 8px;
+  padding: 8px;
+}
+
+.innerMenu li:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
 /* Media queries */
 
 /* Additional styles */
 .attribution {
   font-size: 20px;
   text-align: center;
+  display: none;
 }
 
 .attribution a {

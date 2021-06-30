@@ -36,6 +36,7 @@ li {
   height: 100vh;
   color: var(--white);
   font-family: "Barlow";
+  position: relative;
 }
 
 .showcase h1 {
@@ -68,6 +69,43 @@ li {
 .innerMenu li:hover {
   background: var(--white);
   color: var(--black);
+}
+
+.content {
+  display: flex;
+}
+
+.contentText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+}
+
+.contentText > * {
+  width: 50%;
+}
+
+.contentImage {
+  flex-basis: 50%;
+}
+
+.contentImage img {
+  width: 100%;
+}
+
+.contentText h1 {
+  font-family: "Fraunces";
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+.contentText p {
+  font-family: "Barlow";
+  margin-bottom: 30px;
+  line-height: 1.5;
+  color: var(--grayish-blue);
 }
 
 /* Media queries */

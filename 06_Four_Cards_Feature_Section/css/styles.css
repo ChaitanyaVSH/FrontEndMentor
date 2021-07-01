@@ -28,6 +28,7 @@ body {
 .container {
   max-width: 80%;
   margin: auto;
+  padding-top: 50px;
 }
 
 .lead {
@@ -42,15 +43,29 @@ body {
 }
 /* FontAwesome styles */
 /* Actual styles */
+.header {
+  max-width: 550px;
+  margin: auto;
+  text-align: center;
+}
+
+.header p {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
 .featuresContainer {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   gap: 30px;
+  margin: 50px 0;
 }
 
 .container2 {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
   gap: 30px;
@@ -72,6 +87,7 @@ body {
   justify-content: flex-end;
   margin-top: 55px;
 }
+
 .card1 {
   border-top: 4px solid var(--cyan);
 }

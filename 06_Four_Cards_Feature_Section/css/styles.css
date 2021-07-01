@@ -104,6 +104,11 @@ body {
   border-top: 4px solid var(--blue);
 }
 /* Media queries */
+@media (max-width: 380px) {
+  .header {
+    font-size: 11px;
+  }
+}
 
 /* Additional styles */
 .attribution {

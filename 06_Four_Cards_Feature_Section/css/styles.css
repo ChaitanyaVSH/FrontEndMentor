@@ -19,7 +19,21 @@
   --light-gray: hsl(0, 0%, 98%);
 }
 
+/* HTML, body styles */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 /* Utility styles */
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+
+.lead {
+  font-weight: lighter;
+  color: var(--grayish-blue);
+}
 /* FontAwesome styles */
 /* Actual styles */
 /* Media queries */

@@ -59,7 +59,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 30px;
   margin: 50px 0;
 }
 
@@ -68,11 +67,11 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   flex-direction: column;
-  gap: 30px;
 }
 
 .card {
   max-width: 350px;
+  margin: 15px;
   padding: 25px;
   box-shadow: -2px 6px 14px -3px rgba(186, 186, 186, 1);
   border-radius: 8px;
@@ -110,6 +109,16 @@ body {
   }
 }
 
+@media (max-width: 1425px) {
+  .featuresContainer {
+    display: block;
+  }
+
+  .card {
+    margin: 15px auto;
+  }
+}
+
 /* Additional styles */
 .attribution {
   font-size: 19px;
@@ -117,4 +126,5 @@ body {
 }
 .attribution a {
   color: var(--red);
+  text-decoration: none;
 }

@@ -1,0 +1,50 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Root variables */
+:root {
+  --blue: hsl(223, 87%, 63%);
+  --gray: hsl(0, 0%, 59%);
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+  --very-dark-blue: hsl(209, 33%, 12%);
+}
+
+/* HTML, body styles */
+/* Utility styles */
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+/* FontAwesome styles */
+/* Actual styles */
+/* Media Queries */
+
+/* Additional styles */
+.attribution {
+  font-size: 20px;
+  text-align: center;
+}
+
+.attribution a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+/*
+  We are launching soon!
+
+  Subscribe and get notified
+
+  Notify Me
+
+  &copy; Copyright Ping. All rights reserved.
+ */

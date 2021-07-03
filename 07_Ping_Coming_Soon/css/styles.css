@@ -25,6 +25,9 @@
 }
 
 /* FontAwesome styles */
+.fas {
+  color: var(--light-red);
+}
 /* Actual styles */
 /* Media Queries */
 

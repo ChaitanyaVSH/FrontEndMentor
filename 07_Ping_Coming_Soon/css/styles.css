@@ -18,17 +18,44 @@
 }
 
 /* HTML, body styles */
+body {
+  font-family: "Libre Franklin";
+}
+
 /* Utility styles */
 .container {
   max-width: 90%;
   margin: auto;
+  padding: 20px;
+  text-align: center;
 }
 
 /* FontAwesome styles */
 .fas {
   color: var(--light-red);
 }
+
 /* Actual styles */
+.header h2 {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.header h3 {
+  font-weight: lighter;
+  font-size: 25px;
+  margin-bottom: 18px;
+  letter-spacing: 1.1px;
+}
+
+.header h3 span {
+  font-weight: 900;
+}
+
+.header p {
+  font-size: 15px;
+}
+
 /* Media Queries */
 
 /* Additional styles */

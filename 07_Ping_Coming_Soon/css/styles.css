@@ -97,6 +97,13 @@ img {
   color: var(--white);
   font-weight: bolder;
   font-size: 16px;
+  cursor: pointer;
+  transition: all 250ms ease-in-out;
+}
+
+.notifyButton:hover {
+  opacity: 0.8;
+  letter-spacing: 1.5px;
 }
 
 .illustration {

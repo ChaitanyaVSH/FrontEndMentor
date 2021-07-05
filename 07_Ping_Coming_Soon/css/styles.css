@@ -32,6 +32,12 @@ body {
   text-align: center;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  margin: auto;
+}
+
 /* FontAwesome styles */
 .fas {
   color: var(--light-red);
@@ -91,6 +97,12 @@ body {
   color: var(--white);
   font-weight: bolder;
   font-size: 16px;
+}
+
+.illustration {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 75px;
 }
 
 /* Media Queries */

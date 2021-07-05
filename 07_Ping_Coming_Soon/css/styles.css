@@ -15,6 +15,8 @@
   --pale-blue: hsl(223, 100%, 88%);
   --light-red: hsl(354, 100%, 66%);
   --very-dark-blue: hsl(209, 33%, 12%);
+  --white: #fff;
+  --black: #000;
 }
 
 /* HTML, body styles */
@@ -42,17 +44,20 @@ body {
 }
 
 .header h3 {
-  font-weight: lighter;
+  font-weight: 100;
   font-size: 25px;
+  color: var(--gray);
   margin-bottom: 18px;
   letter-spacing: 1.1px;
 }
 
 .header h3 span {
   font-weight: 900;
+  color: var(--black);
 }
 
 .header p {
+  font-weight: lighter;
   font-size: 15px;
 }
 

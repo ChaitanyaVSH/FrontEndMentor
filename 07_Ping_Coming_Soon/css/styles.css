@@ -94,13 +94,13 @@ body {
 }
 
 /* Media Queries */
-@media (min-width: 700px) {
+@media (min-width: 675px) {
   .newsletter {
-    max-width: 90%;
+    max-width: 650px;
     margin: auto;
     margin-top: 35px;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
   }
 
   .email {
@@ -109,12 +109,6 @@ body {
 
   .notifyButton {
     flex-basis: 40%;
-  }
-}
-
-@media (min-width: 900px) {
-  .newsletter {
-    max-width: 70%;
   }
 }
 

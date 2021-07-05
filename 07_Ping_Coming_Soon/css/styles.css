@@ -27,9 +27,14 @@ body {
 /* Utility styles */
 .container {
   max-width: 90%;
+  min-height: 100vh;
+  /* https://stackoverflow.com/a/45762747/11399514 */
   margin: auto;
   padding: 20px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 img {
@@ -41,6 +46,14 @@ img {
 /* FontAwesome styles */
 .fas {
   color: var(--light-red);
+}
+
+.fab {
+  border: 1px solid var(--pale-blue);
+  border-radius: 30px;
+  color: var(--blue);
+  margin: 5px;
+  padding: 10px;
 }
 
 /* Actual styles */
@@ -110,6 +123,11 @@ img {
   max-width: 800px;
   margin: auto;
   margin-top: 75px;
+}
+
+.socialShare {
+  margin-top: auto;
+  margin-bottom: 30px;
 }
 
 /* Media Queries */

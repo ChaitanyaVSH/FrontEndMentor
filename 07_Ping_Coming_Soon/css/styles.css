@@ -68,13 +68,13 @@ img {
   font-size: 15px;
 }
 
-.newsletter {
+.newsletter form {
   display: flex;
   flex-direction: column;
   margin-top: 35px;
 }
 
-.newsletter > * {
+.newsletter form > * {
   padding: 13px;
   border-radius: 100px;
   margin: 5px;
@@ -82,7 +82,7 @@ img {
 
 .email {
   outline: none;
-  border: 1px solid var(--blue);
+  border: 1px solid var(--pale-blue);
   /* https://stackoverflow.com/a/37277907/11399514 */
   text-indent: 20px;
 }
@@ -107,7 +107,7 @@ img {
 
 /* Media Queries */
 @media (min-width: 675px) {
-  .newsletter {
+  .newsletter form {
     max-width: 650px;
     margin: auto;
     margin-top: 35px;

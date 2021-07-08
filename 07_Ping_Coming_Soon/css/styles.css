@@ -130,6 +130,12 @@ img {
   margin-bottom: 30px;
 }
 
+.socialShare p {
+  font-size: 13px;
+  color: var(--gray);
+  margin-top: 15px;
+}
+
 /* Media Queries */
 @media (min-width: 675px) {
   .newsletter form {
@@ -159,13 +165,3 @@ img {
   color: var(--blue);
   text-decoration: none;
 }
-
-/*
-  We are launching soon!
-
-  Subscribe and get notified
-
-  Notify Me
-
-  &copy; Copyright Ping. All rights reserved.
- */

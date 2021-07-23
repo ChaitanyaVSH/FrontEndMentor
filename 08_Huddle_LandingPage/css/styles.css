@@ -1,0 +1,41 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* CSS Root variables */
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --soft-magenta: hsl(300, 69%, 71%);
+}
+
+/* HTML, body styles */
+/* Utility styles */
+/* FontAwesome styles */
+/* Actual styles */
+/* Media Queries */
+/* Experimental CSS */
+/* Additional styles */
+.attribution {
+  font-size: 22px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+/*
+ Build The Community Your Fans Will Love
+
+  Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
+  Create connections with your users as you engage in genuine discussion.
+
+  Register
+ */

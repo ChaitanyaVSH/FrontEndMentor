@@ -16,6 +16,31 @@
 
 /* HTML, body styles */
 /* Utility styles */
+.container {
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  background-image: url("../images/bg-desktop.svg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  padding: 50px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: var(--violet);
+  opacity: 1;
+  z-index: -1;
+}
 /* FontAwesome styles */
 /* Actual styles */
 /* Media Queries */

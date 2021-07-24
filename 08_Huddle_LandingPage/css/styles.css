@@ -13,34 +13,8 @@
   --violet: hsl(257, 40%, 49%);
   --soft-magenta: hsl(300, 69%, 71%);
 }
-
 /* HTML, body styles */
 /* Utility styles */
-.container {
-  /* Full height */
-  height: 100vh;
-
-  /* Center and scale the image nicely */
-  background-image: url("../images/bg-desktop.svg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-
-  padding: 50px;
-}
-
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: var(--violet);
-  opacity: 1;
-  z-index: -1;
-}
 /* FontAwesome styles */
 /* Actual styles */
 /* Media Queries */
@@ -55,12 +29,3 @@
   color: hsl(228, 45%, 44%);
   text-decoration: none;
 }
-
-/*
- Build The Community Your Fans Will Love
-
-  Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
-  Create connections with your users as you engage in genuine discussion.
-
-  Register
- */

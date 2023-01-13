@@ -1,0 +1,83 @@
+/*
+Fonts
+https://fonts.google.com/specimen/Inter
+*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CSS Root Variables */
+:root {
+    --white: #fff;
+    --black: #000;
+    --softOrange: hsl(35, 77%, 62%);
+    --softRed: hsl(5, 85%, 63%);
+    --offWhite: hsl(36, 100%, 99%);
+    --grayishBlue: hsl(233, 8%, 79%);
+    --darkGrayishBlue: hsl(236, 13%, 42%);
+    --veryDarkBlue: hsl(240, 100%, 5%)
+}
+
+/* HTML, body styles */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Utility styles */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.center-grid-items {
+    place-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Font awesome styles */
+/* Actual styles */
+
+/* Media queries */
+/* Mobile devices */
+@media (max-width: 480px) {}
+
+/* Ipads and Tablets */
+@media (max-width: 768px) {}
+
+/* Larger screens */
+@media (max-width: 1024px) {}
+
+/* Additional styles */

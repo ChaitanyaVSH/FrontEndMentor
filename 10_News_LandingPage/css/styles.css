@@ -219,7 +219,7 @@ nav ul {
     display: none;
     position: fixed;
     top: 20px;
-    right: 0;
+    right: 10px;
     z-index: 15;
 }
 

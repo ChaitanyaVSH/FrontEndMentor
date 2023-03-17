@@ -222,6 +222,28 @@ body {
         height: 100%;
         width: 100%;
     }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1100px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 10px 0;
+    }
+
+    nav ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    }
+
+    .navItem {
+        padding: 8px 14px;
+        font-weight: 700;
+        color: var(--grayishBlue);
+    }
 }
 
 
@@ -295,6 +317,10 @@ body {
         grid-column: 1/-1;
         display: flex;
         gap: 40px;
+    }
+
+    nav {
+        margin-bottom: 40px;
     }
 }
 
